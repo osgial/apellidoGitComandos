@@ -2,3 +2,4 @@
 2. cat datos.txt | grep -E 'juan' | awk -F ',+' '{print $4}'
 3. cat datos.txt | grep 'PROG' | wc -l
 4. cat datos.txt | grep 'PROG$' | wc -l
+5. cat datos.txt | grep '.es' | awk -F ',+' '{print $2}' | cut -d' ' -f1
