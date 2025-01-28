@@ -3,3 +3,4 @@
 3. cat datos.txt | grep 'PROG' | wc -l
 4. cat datos.txt | grep 'PROG$' | wc -l
 5. cat datos.txt | grep '.es' | awk -F ',+' '{print $2}' | cut -d' ' -f1
+6. sed -i 's/.com/.net/g' datos.txt

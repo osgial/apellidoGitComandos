@@ -1,5 +1,5 @@
 1,Ana López,44,ana.lopez@example.es,PROG
-2,Juan Pérez,28,juan.perez@dominio.com,SI-BBDD
-3,Maria García,41,maria.garcia@example.com,PROG
-4,Juan Ruiz,36,juan.ruiz@dominio.com,PROG-SI
+2,Juan Pérez,28,juan.perez@dominio.net,SI-BBDD
+3,Maria García,41,maria.garcia@example.net,PROG
+4,Juan Ruiz,36,juan.ruiz@dominio.net,PROG-SI
 5,Lucía Torres,29,lucia.torres@example.es,BBDD
