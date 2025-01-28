@@ -1,1 +1,2 @@
-cat datos.txt | grep -E 'juan'
+1. cat datos.txt | grep -E 'juan'
+2. cat datos.txt | grep -E 'juan' | awk -F ',+' '{print $4}'
