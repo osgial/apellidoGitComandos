@@ -5,4 +5,5 @@
 5. cat datos.txt | grep '.es' | awk -F ',+' '{print $2}' | cut -d' ' -f1
 6. sed -i 's/.com/.net/g' datos.txt
 7. cat datos.txt | awk -F ',+' '{print $5}' | grep '-' | wc -l
-cat datos.txt | awk -F, '$3 > 40 {print $2, $3}'
+8. cat datos.txt | awk -F, '$3 > 40 {print $2, $3}'
+9. cat datos.txt | awk -F ',+' '{print $2 " " $5}' | cut -d' ' --fields=2,3 | awk -F ' ' '{print $1 "*" $2}'
